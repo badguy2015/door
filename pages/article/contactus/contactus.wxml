@@ -1,0 +1,12 @@
+<import src="../../common/navigate_template.wxml" />
+<template is="bottom_template" /> 
+ <view class="container" style="heigth:100%;">
+   <block wx:for="{{contectus_images_list}}" wx:key="unique" wx:for-item="image_info" >
+     <image class="width_rpx_750" src="{{image_info.url}}" mode="widthFix" ></image> 
+   </block>
+   <view class="contact_us">
+    <text>联系人：{{contactus_data.name}}</text>
+    <text catchtap="ontap" data-phone="{{contactus_data.mobile}}">联系电话：{{contactus_data.mobile}}</text>
+    <text>联系地址：{{contactus_data.address}}</text>
+   </view>
+</view> 

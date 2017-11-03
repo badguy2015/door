@@ -1,0 +1,27 @@
+<view>
+  <swiper indicator-dots="true" autoplay='true' interval='3000' current='1' duration='500' vertical='true '>
+    <swiper-item><image src="/images/1.jpg" ></image></swiper-item> 
+    <swiper-item><image src="/images/2.jpg" ></image></swiper-item> 
+    <swiper-item><image src="/images/index.jpg" ></image></swiper-item> 
+  </swiper>
+</view>
+
+
+    <!-- <image src="/images/index/2.jpg"> </image>
+    <image src="/images/index/3.jpg"> </image>
+    <image src="/images/index/4.jpg"> </image>
+    <image src="/images/index/5.jpg"> </image>
+    <image src="/images/index/6.jpg"> </image>
+    <image src="/images/index/7.jpg"> </image>
+    <image src="/images/index/8.jpg"> </image>
+    <image src="/images/index/9.jpg"> </image>
+    <image src="/images/index/10.jpg"> </image>
+    <image src="/images/index/11.jpg"> </image>
+    <image src="/images/index/12.jpg"> </image>
+    <image src="/images/index/13.jpg"> </image>
+    <image src="/images/index/14.jpg"> </image>
+    <image src="/images/index/15.jpg"> </image>
+    <image src="/images/index/16.jpg"> </image>
+    <image src="/images/index/17.jpg"> </image>
+    <image src="/images/index/18.jpg"> </image> -->
+    <!-- <text wx:if="{{false}}">{{content}}</text> -->

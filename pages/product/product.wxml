@@ -1,0 +1,8 @@
+<import src="../common/navigate_template.wxml" />
+<template is="bottom_template" />
+<view class="container">
+  <block wx:for="{{product_list}}" wx:key="" wx:for-item="item"> 
+     <image class="width_rpx_750" src="../../images/product/list/{{item.id}}.jpg" catchtap="ontap" data-id="{{item.id}}" ></image>
+     <text catchtap="ontap">{{item.product_name}}</text>
+  </block> 
+</view>

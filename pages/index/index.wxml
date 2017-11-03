@@ -1,0 +1,7 @@
+<import src="../common/navigate_template.wxml" />
+<template is="bottom_template" />
+<view class="container" style="heigth:100%;">
+   <block wx:for="{{index_images_list}}" wx:key="unique" wx:for-item="image_info" >
+      <image class="width_rpx_750" src="{{image_info.url}}" mode="widthFix" bindtap="img_ontap" binderror="img_onerror"  data-url="{{image_info.navigate_url}}"></image>  
+   </block> 
+</view>

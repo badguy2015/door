@@ -1,0 +1,8 @@
+<template name="bottom_template">
+<view class="bottom">
+  <image src="/images/icon/index.png" catchtap="redirect_index" ></image>
+  <image src="/images/icon/product.png" catchtap="redirect_product" ></image>
+  <image src="/images/icon/article.png" catchtap="redirect_article" ></image>
+  <image src="/images/icon/contactus.png" catchtap="redirect_contactus" ></image> 
+</view>
+</template>

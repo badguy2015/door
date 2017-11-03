@@ -1,0 +1,20 @@
+.bottom{
+  display:flex;
+  flex-direction:row;
+  width:750rpx;
+  height:100rpx;
+  /* background-image: url("/images/icon/index.png"); */
+  /* background-color: red; */
+  /* line-height: 30px; */
+  text-align: center;
+  vertical-align: middle;
+  position:fixed;
+  bottom:0px;
+  background-color:#fff;
+}
+
+.bottom image{
+  margin:auto;
+  width:50rpx;
+  height:50rpx;
+}

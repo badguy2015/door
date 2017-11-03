@@ -1,0 +1,6 @@
+<view class="container">
+  <block wx:for="{{product_detail.product_images}}" wx:key="" wx:for-item="image_id">
+    <image class="width_rpx_750;" mode="widthFix" src="../../../images/product/detail/{{product_detail.id}}/{{image_id}}.jpg" bindtap="ontap"></image>
+  </block>
+  <text style="width:90%;margin-top:20px;text-align:left;">{{product_detail.product_content}}</text>
+</view>
